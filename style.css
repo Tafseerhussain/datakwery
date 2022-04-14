@@ -30,6 +30,7 @@ DOCUMENT
 	--warning: #FFFAEC;
 	--dark-gray: #696969;
 	--light-gray: #E6E6E6;
+	--input-border: #ced4da;
 	--bg-gray: #FCFCFD;
 	--yellow: #FFA800;
 	--theme-shadow: 0 3px 20px rgba(0,0,0,0.1);
@@ -47,12 +48,17 @@ a {text-decoration: none}
 	background: var(--white);
 	color: var(--primary);
 }
+.btn:hover {
+	color: var(--white);
+}
+.btn-outline:hover {
+	color: var(--primary);
+}
 html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
 	line-height: 1.6rem;
 	overflow-x: hidden;
-	letter-spacing: 0.5px;
 	scroll-behavior: smooth;
 	animation-delay: 0.5; 
 	font-weight: 400;
@@ -290,16 +296,16 @@ SEARCH RESULTS PAGE
 	border-color: var(--primary);
 	background-repeat: no-repeat;
 }
-.filter-switch-box .filters {
+.filters {
 	text-align: right;
 }
-.filter-switch-box .filters .clear-filters {
+.filters .clear-filters {
 	font-size: 16px;
 	color: var(--secondary);
 	text-decoration: underline;
 	margin-right: 10px;
 }
-.filter-switch-box .filters .btn img {
+.filters .btn img {
 	height: 20px;
 	margin-bottom: 4px;
 }
@@ -371,7 +377,7 @@ SEARCH RESULTS PAGE
 	margin-bottom: 2px;
 }
 .snapshot-results {
-	padding: 20px;
+	padding: 20px 20px 0;
 	background: var(--bg-gray);
 	border: 1px solid var(--light-gray);
 	border-radius: 10px;
@@ -394,7 +400,6 @@ SEARCH RESULTS PAGE
     position: absolute;
     right: 20px;
     top: 36%;
-    /* transform: rotate(-180deg) translateY(-50%); */
 }
 .snapshot-results .accordion-button.collapsed::after {
   	background-image: url(assets/icons/chevron-down-white.svg);
@@ -426,4 +431,175 @@ SEARCH RESULTS PAGE
 	font-size: 14px;
 	font-weight: 400;
 	text-align: right;
+	padding-right: 34px;
+	display: block;
+}
+.snapshot-results .accordion-item .accordion-body .item {
+	border: 1px solid var(--light-gray);
+	background: var(--bg-gray);
+	border-radius: 4px;
+	padding: 5px 6px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: var(--dark-gray);
+	display: block;
+	line-height: 20px;
+	transition: 0.2s;
+}
+.snapshot-results .accordion-item .accordion-body .item:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.snapshot-results .accordion-item .accordion-body .view-more a {
+	color: var(--primary);
+	font-size: 14px;
+}
+
+/* SEARCH DETAILS */
+.search-details {
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.search-details-cards {
+	margin-top: 30px;
+}
+.search-detail-card {
+	border-radius: 10px;
+	border: 1px solid var(--light-gray);
+	background: var(--bg-gray);
+	transition: 0.2s;
+}
+.search-detail-card:hover {
+	border-color: var(--primary);
+	box-shadow: var(--theme-shadow);
+}
+.search-detail-card .course-body {padding: 20px}
+.search-detail-card .course-by {
+	background-color: var(--primary);
+	display: inline-block;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-size: 12px;
+	padding: 3px 10px;
+	margin: 15px 0 4px;
+	color: var(--white);
+}
+.search-detail-card .institute-name {
+	color: var(--white);
+	background-color: var(--secondary);
+	padding: 4px 10px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-size: 14px;
+	display: inline-block;
+}
+.search-detail-card .course-type {
+	background: var(--yellow);
+	border-radius: 6px;
+	color: var(--white);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+	position: absolute;
+	right: 0;
+	padding: 6px 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.search-detail-card .course-name {
+	color: var(--secondary);
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	display: block;
+}
+.search-detail-card .short-desc {
+	color: var(--dark-gray);
+	font-size: 14px;
+}
+.search-detail-card .course-meta {
+	margin: 16px 0;
+	border-top: 1px solid var(--light-gray);
+	border-bottom: 1px solid var(--light-gray);
+	padding: 10px 0;
+	font-size: 12px;
+}
+.search-detail-card .course-meta img {
+	height: 20px;
+}
+.search-detail-card .course-tags a {
+	color: var(--primary);
+	border: 1px solid var(--primary);
+	padding: 3px 10px;
+	font-size: 12px;
+	border-radius: 6px;
+	display: inline-block;
+	margin: 0 4px 10px;
+	transition: 0.2s;
+}
+.search-detail-card .course-tags a:hover {
+	background: var(--primary);
+	color: var(--white);
+}
+
+/* CAREER TRACK */
+.career-track {
+	padding: 40px 0 80px;
+}
+.career-track-box {
+	background-color: var(--bg-gray);
+	border-radius: 10px;
+	border: 1px solid var(--light-gray);
+	padding: 30px;
+}
+.career-track h1 {
+	font-size: 24px;
+	color: var(--secondary);
+	font-weight: 600;
+}
+.career-track-btns {margin-top: 24px}
+.career-track-btns .btn {
+	font-size: 14px;
+	margin-right: 15px;
+	display: inline-block;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.career-track-btns .btn img {
+	margin-right: 10px;
+}
+.career-track-box .subscription-box {
+	border-radius: 10px;
+	padding: 30px 40px 40px;
+	background-color: var(--white);
+	border: 1px solid var(--light-gray);
+}
+.career-track-box .subscription-box form {
+	padding: 24px 70px;
+}
+.career-track-box .subscription-box .input-group-text {
+	background: var(--white);
+	border-radius: 10px;
+}
+.career-track-box .subscription-box .input-group-text img {
+	height: 20px;
+	filter: brightness(100%);
+}
+.career-track-box .subscription-box input {
+	font-size: 14px;
+	border-top-right-radius: 10px !important;
+	border-bottom-right-radius: 10px !important;
+	border-left: 0;
+	padding-left: 0;
+}
+.career-track-box .subscription-box input:focus {
+	border-color: var(--input-border);
+}
+.career-track-box .subscription-box .btn {
+	border-radius: 10px !important;
+	font-size: 14px;
+}
+.career-track-box .subscription-box a {
+	color: var(--primary);
+	font-size: 14px;
+	display: block;
+	text-align: center;
 }
