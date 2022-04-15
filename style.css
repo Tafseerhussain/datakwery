@@ -54,6 +54,9 @@ a {text-decoration: none}
 .btn-outline:hover {
 	color: var(--primary);
 }
+.btn:focus {
+	box-shadow: none !important;
+}
 html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
@@ -144,7 +147,6 @@ NAVIGATION BAR
 FOOTER
 ====================================================*/
 footer {
-	padding-bottom: 50px;
 	font-size: 14px;
 }
 footer .divider {
@@ -184,6 +186,12 @@ footer .footer-links a {
 }
 footer .footer-links a:hover {
 	text-decoration: underline;
+}
+footer .footer-logo img {width: 75%}
+footer .copyright {
+	border-top: 1px solid var(--light-gray);
+	padding: 20px 0;
+	margin-top: 40px;
 }
 
 /*====================================================  
@@ -433,6 +441,9 @@ SEARCH RESULTS PAGE
 	text-align: right;
 	padding-right: 34px;
 	display: block;
+	line-height: 20px;
+	position: relative;
+	top: 5px;
 }
 .snapshot-results .accordion-item .accordion-body .item {
 	border: 1px solid var(--light-gray);
@@ -440,12 +451,12 @@ SEARCH RESULTS PAGE
 	border-radius: 4px;
 	padding: 5px 6px;
 	font-size: 12px;
-	margin-bottom: 10px;
 	color: var(--dark-gray);
 	display: block;
 	line-height: 20px;
 	transition: 0.2s;
 }
+.snapshot-results .accordion-item .accordion-body .view-more {margin-top: 10px}
 .snapshot-results .accordion-item .accordion-body .item:hover {
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }

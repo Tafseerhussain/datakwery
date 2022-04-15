@@ -6,3 +6,299 @@
 	    max-width: 1450px;
 	}
 }
+@media (max-width: 1599px) {
+	.career-track-box .subscription-box form {padding: 24px 50px}
+}
+@media (max-width: 1399px) {
+	.navbar .nav-item .nav-link {font-size: 16px}
+	.navbar .navbar-brand img {height: 50px}
+	.top-message {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.hero-title {
+	    font-size: 40px;
+	    line-height: 55px;
+	    margin-top: 70px;
+	}
+	.hero-search input {
+	    padding: 10px 80px 13px 0;
+	    font-size: 16px;
+	}
+	.hero-search .input-group-text img {
+		height: 18px;
+		position: relative;
+		top: -2px;
+	}
+	.hero-search .btn {
+	    right: 6px;
+	    padding: 2px 16px 6px;
+	}
+	.recent-searches {font-size: 12px}
+	.hero .student-img {width: 75%}
+	.empty-search {
+	    padding: 50px 0;
+	    font-size: 20px;
+	}
+	footer .footer-logo img {width: 100%}
+	.filter-switch-box .switches .form-check-input {
+	    height: 16px;
+	    width: 30px;
+	    top: 1px;
+    	position: relative;
+	}
+	.filter-switch-box .switches {font-size: 14px}
+	.filter-switch-box .switches .form-switch {margin-right: 20px}
+	.filters .clear-filters {font-size: 14px}
+	.filters .btn {font-size: 14px}
+	.filters .btn img {
+	    height: 16px;
+	    margin-bottom: 0px;
+	    margin-left: 3px;
+	}
+	h1.section-title {font-size: 20px}
+	.search-snapshot .btn {font-size: 14px}
+	.search-snapshot .btn img {
+	    height: 14px;
+	    margin-bottom: 0px;
+	    margin-left: 3px;
+	}
+	.snapshot-results .accordion-header span.results {
+		font-size: 12px;
+		padding-right: 20px;
+		text-align: left;
+	}
+	.snapshot-results .accordion-header .accordion-button .col-3 {padding-left: 0}
+	.snapshot-results .accordion-button, .snapshot-results .accordion-button:not(.collapsed) {font-size: 16px}
+	.snapshot-results .accordion-body {padding: 10px}
+	.search-detail-card .course-by {
+	    font-size: 10px;
+	    padding: 1px 7px;
+	}
+	.search-detail-card .institute-name {
+	    padding: 2px 7px;
+	    font-size: 12px;
+	}
+	.search-detail-card .course-type {
+	    padding: 1px 12px;
+	    font-size: 12px;
+	}
+	.search-detail-card .course-body {padding: 14px}
+	.search-detail-card .course-name {font-size: 20px; margin-bottom: 10px}
+	.search-detail-card .short-desc {font-size: 13px}
+	.search-detail-card .course-tags a {
+	    padding: 1px 8px;
+	    font-size: 11px;
+	    margin: 0 1px 8px;
+	}
+	.search-detail-card .course-meta img {height: 18px}
+	.career-track h1 {font-size: 20px}
+	.career-track-btns .btn {
+	    font-size: 13px;
+	    margin-right: 10px;
+	    margin-bottom: 10px;
+	    padding: 8px;
+	}
+	.career-track-box .subscription-box form {padding: 24px 0}
+	.filter-switch {margin-top: -45px}
+}
+
+@media (max-width: 1199px) {
+	.top-message img {
+	    height: 12px;
+	    margin-right: 5px;
+	    top: -1px;
+	}
+	.navbar .nav-item .nav-link {font-size: 14px}
+	.navbar .navbar-brand img {height: 35px}
+	.navbar .login-btn a {
+	    padding: 8px 20px;
+	    font-size: 16px;
+	    position: relative;
+	    top: 3px;
+	}
+	.top-message {
+	    font-size: 11px;
+	    line-height: 18px;
+	}
+	.hero-title {
+	    font-size: 32px;
+	    line-height: 45px;
+	    margin-top: 50px;
+	}
+	.hero-search input {
+	    padding: 8px 70px 10px 0;
+	    font-size: 14px;
+	}
+	.hero-search .btn img {height: 12px}
+	.hero-search .input-group-text img {
+		height: 16px;
+		position: relative;
+		top: -2px;
+	}
+	.hero-search .btn {
+	    right: 4px;
+	    padding: 0px 16px 4px;
+	}
+	.empty-search {
+	    padding: 40px 0;
+	    font-size: 16px;
+	}
+	footer .footer-social a {margin-right: 6px}
+	footer .footer-social a img {height: 20px}
+	footer .site-language {
+	    margin-top: 20px;
+	    font-size: 12px;
+	}
+	footer h5 {
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	footer {font-size: 12px}
+	.recent-searches {line-height: 24px}
+	.snapshot-results .accordion-item .accordion-body .item {
+	    font-size: 11px;
+	    line-height: 18px;
+	}
+	.filter-switch-box .switches {font-size: 12px}
+	.filter-switch-box {padding: 11px 10px}
+	.filter-switch-box .switches .form-check-input {
+	    width: 27px;
+	    top: 2px;
+	}
+	.filter-switch {margin-top: -32px}
+}
+
+@media (max-width: 991px) {
+	.top-message {
+    	font-size: 10px;
+	    line-height: 16px;
+	    padding: 6px;
+	}
+	.hero-title {
+	    font-size: 27px;
+	    line-height: 36px;
+	    margin-top: 40px;
+	}
+	.hero-search input {
+	    padding: 10px 60px 10px 0;
+	    font-size: 12px;
+	}
+	.hero-search .input-group-text {padding: 8px}
+	.hero-search .input-group-text img {
+		height: 12px;
+		top: 0;
+	}
+	.hero-search {margin-top: 15px}
+	.recent-searches {
+		margin-top: 10px;
+		line-height: 20px;
+	}
+	.recent-searches a {font-size: 10px}
+	.recent-searches p {margin-bottom: 0}
+	.hero .student-img {width: 80%}
+	footer .footer-col-1 {
+	    text-align: center;
+	    padding-bottom: 20px;
+	    border-bottom: 1px solid var(--light-gray);
+	}
+	footer .footer-logo img {height: 35px}
+	footer .divider {margin-bottom: 30px}
+	footer .footer-social {margin-top: 10px}
+	footer h5 {margin-bottom: 10px}
+	footer .footer-col-2,
+	footer .footer-col-3 {
+		padding: 30px 0 10px;
+		height: 100%;
+	}
+	footer .copyright {margin-top: 30px}
+	.navbar-light .navbar-toggler {
+	    border: 0;
+	    box-shadow: none !important;
+	}
+	.navbar .dropdown-menu {
+    	font-size: 16px;
+	    box-shadow: none;
+	    border: 1px solid var(--light-gray);
+	}
+	.navbar .nav-item {margin-left: 0}
+	.filters .btn,
+	.search-snapshot .btn {
+	    font-size: 12px;
+	    padding: 9px 10px;
+	}
+	.filters .btn img, .search-snapshot .btn img {height: 14px}
+	.filters .clear-filters {
+	    font-size: 11px;
+	    margin-right: 4px;
+	    position: relative;
+	    top: -2px;
+	}
+	h1.section-title {font-size: 18px}
+	.search-snapshot {padding: 30px 0}
+	.snapshot-results {margin-top: 20px; padding: 15px 15px 10px}
+	.snapshot-results .accordion-button, .snapshot-results .accordion-button:not(.collapsed) {
+		font-size: 14px;
+		padding: 10px 20px;
+	}
+	.snapshot-results .accordion-button.collapsed::after,
+	.snapshot-results .accordion-button:not(.collapsed)::after {
+	    width: 12px;
+	    height: 9px;
+	    right: 16px;
+	    background-size: 100%;
+	}
+	.snapshot-results .accordion-item {margin-bottom: 10px}
+	.search-details-cards {margin-top: 0}
+	.career-track-btns {margin-bottom: 20px}
+	.career-track-btns .btn {
+	    font-size: 12px;
+	    padding: 6px 8px;
+	}
+}
+
+@media (max-width: 767px) {
+	.footer-col-2 {text-align: center; border-bottom: 1px solid var(--light-gray)}
+	.footer-col-2 .footer-links {margin-bottom: 20px}
+	.footer-col-3 .footer-links {margin-bottom: 10px}
+	footer h5 {margin-bottom: 14px}
+	footer .footer-links a {margin-bottom: 6px}
+	.hero-title {
+	    font-size: 24px;
+	    line-height: 34px;
+	    text-align: center;
+	}
+	.hero-search {margin: 30px 0 10px}
+	.hero-search input {padding: 12px 70px 12px 0}
+	.hero-search .btn {right: 6px}
+	.recent-searches {
+	    margin-top: 15px;
+	    line-height: 27px;
+	}
+	.recent-searches a {font-size: 12px}
+	.empty-search {
+	    padding: 30px 0;
+	    font-size: 14px;
+	}
+	.navbar-collapse .dropdown-item {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	footer .divider.d-lg-none {
+		width: 94%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.filter-switch-box .switches {justify-content: center}
+	.filter-switch-box .filters {text-align: center; margin-top: 10px}
+}
+
+@media (max-width: 425px) {
+	.hero-title {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.hero .student-img {width: 90%}
+	.empty-search {font-size: 12px}
+	.navbar-collapse .dropdown-item {font-size: 12px}
+}
