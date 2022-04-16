@@ -291,8 +291,105 @@
 	}
 	.filter-switch-box .switches {justify-content: center}
 	.filter-switch-box .filters {text-align: center; margin-top: 10px}
+	.filter-switch-box, 
+	.career-track-box {
+		margin-left: 0; 
+		margin-right: 0
+	}
+	.filter-switch-box .switches {
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+	.filter-switch-box .switches .form-switch {
+ 	   margin-right: 0;
+    	width: 50%;
+	}
+	.filter-switch-box .filters {
+	    margin-bottom: 10px;
+	    margin-top: 0;
+	    text-align: right;
+	}
+	.filters-box {border-radius: 0}
 }
 
+@media (max-width: 575px) {
+	.filter-switch-box, 
+	.career-track-box {
+		margin-left: 0; 
+		margin-right: 0
+	}
+	.filter-switch-box .switches {
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	}
+	.filter-switch-box .switches .form-switch {
+ 	   margin-right: 0;
+    	width: 50%;
+	}
+	.filter-switch-box .filters {
+	    margin-bottom: 10px;
+	    margin-top: 0;
+	    text-align: right;
+	}
+	.search-detail-card .course-name {
+	    font-size: 16px;
+	    margin-bottom: 4px;
+	    line-height: 24px;
+	}
+	.search-detail-card .course-tags a {
+	    padding: 0px 6px;
+	    font-size: 10px;
+	    margin: 0 0px 4px;
+	}
+	.career-track-box .subscription-box {padding: 24px 20px 30px}
+	.career-track-box .subscription-box .input-group-text {padding: 10px}
+	.career-track-box .subscription-box .input-group-text img {height: 16px}
+	.career-track-box .subscription-box input,
+	.career-track-box .subscription-box .btn,
+	.career-track-box .subscription-box a,
+	.search-detail-card .short-desc {font-size: 12px}
+	.career-track-box {padding: 15px 1px}
+	.search-detail-card .course-meta {
+	    margin: 10px 0;
+	    padding: 5px 0 0;
+	    font-size: 10px;
+	}
+	.snapshot-results .accordion-header span.results {
+	    font-size: 10px;
+	    padding-right: 10px;
+	}
+	.filter-switch-box .switches .form-check-input {margin-right: 0}
+	.filter-switch-box .col-4 {padding-left: 0}
+	.search-details h1.section-title {
+		position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	.snapshot-results .accordion-header span.results {
+	    line-height: 14px;
+	    margin: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	.filters-box-content .btn-back {padding: 0 10px}
+	.filters-box-content h1.section-title {transform: none; top: 0}
+	.filters-box-content {padding: 20px 10px}
+	.advance-filters .accordion-item .accordion-header {
+	    padding: 10px;
+	    font-size: 16px;
+	}
+	.advance-filters .accordion-body {
+	    font-size: 12px;
+	    padding: 0 10px;
+	    line-height: 24px;
+	}
+}
+@media (max-width: 450px) {
+	.filter-switch-box .switches .form-switch {
+	    margin-right: 0;
+	    width: 100%;
+	}
+}
 @media (max-width: 425px) {
 	.hero-title {
 	    font-size: 20px;

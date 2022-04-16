@@ -122,6 +122,10 @@ h1.section-title {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+hr {
+	opacity: 1;
+	color: var(--light-gray);
+}
 
 
 /*==================================================== 
@@ -356,7 +360,7 @@ SEARCH RESULTS PAGE
 }
 .filters-box-content {
   display: none;
-  padding: 70px 50px;
+  padding: 30px;
 }
 .body-overlay {
 	position: fixed;
@@ -368,6 +372,135 @@ SEARCH RESULTS PAGE
 	backdrop-filter: blur(6px);
 	z-index: 8;
 	display: none;
+}
+.filters-box-content h1.section-title {
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+	margin-left: 10px;
+}
+.advance-filters .accordion-item {
+	border-radius: 10px;
+	overflow-x: hidden;
+	border: 1px solid var(--light-gray);
+	margin-bottom: 20px;
+	color: var(--dark-gray);
+}
+.advance-filters .accordion-button:not(.collapsed)::after {
+    background-image: url(assets/icons/chevron-down-green.svg);
+    background-size: 16px;
+    filter: none;
+    width: 16px;
+    margin: 0;
+    height: 13px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    /* transform: translate(-50%, -50%); */
+}
+.advance-filters .accordion-button.collapsed::after {
+  	background-image: url(assets/icons/chevron-down-green.svg);
+    background-size: 16px;
+    filter: none;
+    width: 16px;
+    margin: 0;
+    height: 13px;
+    position: absolute;
+    right: 20px;
+    top: 36%;
+}
+.advance-filters .accordion-button, .advance-filters .accordion-button:not(.collapsed) {
+    box-shadow: none;
+    color: var(--secondary);
+    font-size: 20px;
+    font-family: var(--ax-semibold);
+    background: var(--bg-gray);
+    font-weight: 600;
+    display: block;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    height: 20px;
+    width: 20px;
+}
+.advance-filters .accordion-header span {
+	display: inline-block;
+}
+.advance-filters .accordion-header span.results {
+	color: var(--white);
+	opacity: 0.7;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: right;
+	padding-right: 34px;
+	display: block;
+	line-height: 20px;
+	position: relative;
+	top: 5px;
+}
+.advance-filters .accordion-item .accordion-header,
+.advance-filters .accordion-item .accordion-body {
+	background-color: var(--bg-gray);
+	position: relative;
+}
+.advance-filters .accordion-item .accordion-header {padding: 20px}
+.advance-filters .accordion-item .accordion-body .item {
+	border: 1px solid var(--light-gray);
+	background: var(--bg-gray);
+	border-radius: 4px;
+	padding: 5px 6px;
+	font-size: 12px;
+	color: var(--dark-gray);
+	display: block;
+	line-height: 20px;
+	transition: 0.2s;
+}
+.advance-filters .accordion-item .accordion-body .view-more {margin-top: 10px}
+.advance-filters .accordion-item .accordion-body .item:hover {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.advance-filters .accordion-item .accordion-body .view-more a {
+	color: var(--primary);
+	font-size: 14px;
+}
+.filters-box .advance-filters {
+	margin-top: 40px;
+}
+.advance-filters .accordion-item .accordion-header input {
+	position: relative;
+  top: 4px;
+  margin-right: 10px;
+  margin-top: 0;
+}
+.advance-filters .accordion-item input {
+	border-color: var(--black);
+}
+.advance-filters .accordion-item input:checked {
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
+.advance-filters .accordion-body {
+	padding-top: 0;
+	font-size: 14px;
+}
+.advance-filters .accordion-body hr {
+	margin-top: 0;
+}
+.advance-filters .accordion-item .accordion-header {
+	color: var(--secondary);
+	font-weight: 500;
+}
+.advance-filters .accordion-body .filter-selects .col-md-4 {
+	margin-bottom: 10px;
+	display: flex;
+}
+.advance-filters .accordion-body .filter-selects label {
+	margin-left: 6px;
+	position: relative;
+	top: -3px;
 }
 
 /* SEARCH SNAPSHOT */

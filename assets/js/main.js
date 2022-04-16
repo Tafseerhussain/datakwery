@@ -4,11 +4,11 @@ $(window).on('load',function() {
 
 function openNav() {
     if ($(window).width() < 1025 && $(window).width() > 767) {
-        document.getElementById("filters-box").style.width = "70%";
+        document.getElementById("filters-box").style.width = "90%";
     } else if ($(window).width() < 768) {
         document.getElementById("filters-box").style.width = "100%";
     } else {
-        document.getElementById("filters-box").style.width = "70%";
+        document.getElementById("filters-box").style.width = "80%";
     }
     $('html').css('overflow-y', 'hidden');
     $(".filters-box-content").delay(300).fadeIn("slow");
