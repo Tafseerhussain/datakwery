@@ -761,6 +761,10 @@ SEARCH RESULTS PAGE
 DATASCIENCE TOOL PAGE
 ===================================================*/
 .essential-header {margin: 100px 0}
+.datacourse-essential-header {margin-bottom: 50px}
+.other-links {font-size: 16px; font-weight: 600}
+.other-links .btn {font-size: 14px; margin-right: 6px; margin-bottom: 10px}
+.other-links .btn:hover {background: var(--primary); color: var(--white)}
 .essential-header-box {
 	background: var(--secondary);
 	color: var(--white);

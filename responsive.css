@@ -508,6 +508,8 @@
 	.essential-img {display: none}
 	.essential-header .start-learning {margin-top: 20px}
 	.essential-meta-box {display: block}
+	.other-links {font-size: 14px}
+	.other-links .btn {font-size: 12px}
 }
 @media (max-width: 450px) {
 	.filter-switch-box .switches .form-switch {
