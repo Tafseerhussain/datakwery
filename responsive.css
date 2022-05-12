@@ -8,6 +8,20 @@
 }
 @media (max-width: 1599px) {
 	.career-track-box .subscription-box form {padding: 24px 50px}
+	.essential-title {font-size: 32px}
+	.essential-text {
+	    font-size: 18px;
+	    margin-top: 10px;
+	}
+	.learning-sidebar .job-relevance .job-relevance-list a {font-size: 14px}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage {width: 50px}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage-bar {width: 90px}
+	.learning-sidebar .job-relevance .job-relevance-list a .course-name {width: 200px}
+	.learning-sidebar .job-relevance .job-relevance-list a .progress {
+	    height: 12px;
+	    top: 1px;
+	}
+	.learning-course .learning-sidebar .sidebar-box .fast-facts .fast-fact {font-size: 12px}
 }
 @media (max-width: 1399px) {
 	.navbar .nav-item .nav-link {font-size: 16px}
@@ -101,6 +115,64 @@
 	}
 	.career-track-box .subscription-box form {padding: 24px 0}
 	.filter-switch {margin-top: -45px}
+	.affiliations .affiliation-list a {font-size: 12px}
+	.learning-course .learning-sidebar h1 {font-size: 16px}
+	.sidebar-blog-list .blog-title {
+	    font-size: 12px;
+	    line-height: 24px;
+	}
+	.learning-sidebar .subscription-box .form-control {width: 70%}
+	.career-track-box .subscription-box .btn {
+	    margin: 10px auto !important;
+	    display: block;
+	}
+	.related-commnunities .tool-tags {margin-top: 10px}
+	.sidebar-blog-list .btn img {
+		height: 12px;
+	    margin-left: 4px;
+	    position: relative;
+	    top: -1px;
+	}
+	.sidebar-blog-list .btn {font-size: 12px}
+	.learning-sidebar .job-relevance p {
+	    font-size: 12px;
+	    line-height: 24px;
+	}
+	.learning-sidebar .job-relevance .job-relevance-list a {
+	    font-size: 12px;
+	    padding: 6px;
+	}
+	.learning-sidebar .job-relevance .job-relevance-list a .course-name {width: 180px}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage-bar {width: 70px}	
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage {width: 40px}
+	.learning-sidebar .job-relevance .job-relevance-list a .progress {
+	    height: 9px;
+	    top: 0;
+	}
+	.learning-course .career-track-box .subscription-box form {
+	    padding: 10px 0 0;
+	}
+	.essential-meta-box {margin-bottom: 10px}
+	.essential-logo {height: 40px}
+	.essential-meta-box span {
+	    font-size: 14px;
+	    margin-left: 3px;
+	}
+	.learning-course .course-description p {
+	    font-size: 14px;
+	    line-height: 32px;
+	}
+	.learning-course .course-author a {
+	    font-size: 14px;
+	    padding: 6px 12px;
+	}
+	.learning-course .course-author a img {height: 20px}
+	.essential-img {
+	    height: 160px;
+	    top: 20px;
+	}
+	.learning-course .learning-sidebar .sidebar-box .fast-facts h3 {font-size: 12px}
+	.learning-course .learning-sidebar .sidebar-box .opportunity-box h2 {font-size: 14px}
 }
 
 @media (max-width: 1199px) {
@@ -167,6 +239,13 @@
 	    top: 2px;
 	}
 	.filter-switch {margin-top: -32px}
+	.learning-course .learning-sidebar .sidebar-box {padding: 14px}
+	.learning-sidebar .job-relevance .job-relevance-list a .course-name {width: 150px}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage-bar {width: 60px}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage {width: 32px}
+	.essential-header {margin: 50px 0}
+	.sidebar-box .fast-facts .col-md-6 {width: 100%}
+	.sidebar-box .fast-facts .col-md-6:nth-child(2) {margin-top: -10px}
 }
 
 @media (max-width: 991px) {
@@ -255,6 +334,28 @@
 	    font-size: 12px;
 	    padding: 6px 8px;
 	}
+	.learning-sidebar .job-relevance .job-relevance-list a .course-name {width: 70%}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage-bar {width: 17%}
+	.learning-sidebar .job-relevance .job-relevance-list a .percentage {width: 10%}
+	.subscription-box .input-group-text,
+	.subscription-box .form-control {height: 40px}
+	.learning-sidebar .subscription-box .form-control {width: 85%}
+	.essential-title {
+	    font-size: 24px;
+	    line-height: 40px;
+	}
+	.essential-header-box {padding: 30px 50px}
+	.essential-text {
+	    font-size: 16px;
+	    line-height: 32px;
+	}
+	.essential-img {
+	    height: 100px;
+	    position: absolute;
+	    right: 0;
+	    bottom: 4px;
+	    top: auto;
+	}
 }
 
 @media (max-width: 767px) {
@@ -310,6 +411,12 @@
 	    text-align: right;
 	}
 	.filters-box {border-radius: 0}
+	.essential-header .start-learning .btn {font-size: 14px}
+	.learning-course .course-description p {
+	    font-size: 12px;
+	    line-height: 27px;
+	}
+	.learning-course .course-title {font-size: 20px}
 }
 
 @media (max-width: 575px) {
@@ -383,12 +490,32 @@
 	    padding: 0 10px;
 	    line-height: 24px;
 	}
+	.essential-header-box {padding: 20px}
+	.learning-course .course-title {font-size: 20px}
+	.course-title-with-filter .course-filter {font-size: 12px}
+	.essential-title {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.essential-text {
+	    font-size: 12px;
+	    line-height: 27px;
+	}
+	.course-title-with-filter .course-filter {text-align: center}
+	.course-title-with-filter .course-filter span {margin-right: 0}
+	.course-title-with-filter .course-filter img {height: 16px}
+	.learning-course .course-title {font-size: 18px}
+	.essential-img {display: none}
+	.essential-header .start-learning {margin-top: 20px}
+	.essential-meta-box {display: block}
 }
 @media (max-width: 450px) {
 	.filter-switch-box .switches .form-switch {
 	    margin-right: 0;
 	    width: 100%;
 	}
+	.essential-meta-box span {font-size: 12px}
+	.essential-logo {height: 30px}
 }
 @media (max-width: 425px) {
 	.hero-title {
