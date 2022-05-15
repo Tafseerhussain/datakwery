@@ -359,6 +359,11 @@
 }
 
 @media (max-width: 767px) {
+	#searchForm2 {
+	    width: 100%;
+	    margin: 10px auto;
+	    display: block;
+	}
 	.footer-col-2 {text-align: center; border-bottom: 1px solid var(--light-gray)}
 	.footer-col-2 .footer-links {margin-bottom: 20px}
 	.footer-col-3 .footer-links {margin-bottom: 10px}
@@ -416,7 +421,18 @@
 	    font-size: 12px;
 	    line-height: 27px;
 	}
-	.learning-course .course-title {font-size: 20px}
+	.course-title {font-size: 20px}
+	.upcoming-events-accordion .accordion-item .accordion-body {
+	    font-size: 12px;
+	    line-height: 24px;
+	}
+	.upcoming-events-accordion .upcoming-links .upcoming-link {
+	    padding: 5px 20px;
+	    margin-right: 6px;
+	    font-size: 12px;
+	}
+	.upcoming-events-accordion .accordion-button {font-size: 14px}
+	.upcoming-events-accordion .accordion-item .accordion-body {padding: 16px}
 }
 
 @media (max-width: 575px) {
@@ -491,7 +507,7 @@
 	    line-height: 24px;
 	}
 	.essential-header-box {padding: 20px}
-	.learning-course .course-title {font-size: 20px}
+	.course-title {font-size: 20px}
 	.course-title-with-filter .course-filter {font-size: 12px}
 	.essential-title {
 	    font-size: 20px;
@@ -504,12 +520,17 @@
 	.course-title-with-filter .course-filter {text-align: center}
 	.course-title-with-filter .course-filter span {margin-right: 0}
 	.course-title-with-filter .course-filter img {height: 16px}
-	.learning-course .course-title {font-size: 18px}
+	.course-title {font-size: 18px}
 	.essential-img {display: none}
 	.essential-header .start-learning {margin-top: 20px}
 	.essential-meta-box {display: block}
 	.other-links {font-size: 14px}
 	.other-links .btn {font-size: 12px}
+	.upcoming-events-accordion .accordion-button:not(.collapsed)::after {right: -12px}
+	.upcoming-events-accordion .accordion-button.collapsed::after {right: -12px}
+	.upcoming-events-accordion .accordion-button {
+	    padding: 6px 10px;
+	}
 }
 @media (max-width: 450px) {
 	.filter-switch-box .switches .form-switch {

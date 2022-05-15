@@ -161,6 +161,8 @@ FOOTER
 ====================================================*/
 footer {
 	font-size: 14px;
+	background: var(--secondary);
+	color: var(--white);
 }
 footer .divider {
 	width: 100%;
@@ -187,13 +189,13 @@ footer h5 {
 }
 footer .site-language a {
 	text-decoration: none;
-	color: var(--dark-gray);
 	margin-bottom: 6px;
 	display: inline-block;
+	color: var(--white);
 }
 footer .footer-links a {
 	display: block;
-	color: var(--dark-gray);
+	color: var(--white);
 	text-decoration: none;
 	margin-bottom: 10px;
 }
@@ -763,7 +765,17 @@ DATASCIENCE TOOL PAGE
 .essential-header {margin: 100px 0}
 .datacourse-essential-header {margin-bottom: 50px}
 .other-links {font-size: 16px; font-weight: 600}
-.other-links .btn {font-size: 14px; margin-right: 6px; margin-bottom: 10px}
+.other-links .btn {
+    font-size: 12px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    padding: 6px 10px;
+}
+.other-links p {
+	position: relative;
+	top: -3px;
+	font-size: 14px;
+}
 .other-links .btn:hover {background: var(--primary); color: var(--white)}
 .essential-header-box {
 	background: var(--secondary);
@@ -815,7 +827,7 @@ DATASCIENCE TOOL PAGE
 	display: block;
 	position: relative;
 }
-.learning-course .course-title {
+.course-title {
 	font-size: 27px;
 	color: var(--secondary);
 	font-weight: 600;
@@ -1026,6 +1038,10 @@ DATASCIENCE TOOL PAGE
 	background: var(--secondary);
 	border-radius: 10px;
 }
+.affiliations .affiliation-list {
+	height: 230px;
+	overflow: hidden;
+}
 .affiliations .affiliation-list a {
 	font-size: 14px;
 	color: var(--dark-gray);
@@ -1053,6 +1069,10 @@ DATASCIENCE TOOL PAGE
 	text-align: center;
 	line-height: 20px;
 }
+.affiliations .affiliation-list.full-view {
+	height: auto;
+}
+.affiliations .view-more.view-less img {transform: rotate(180deg)}
 .related-training .learning-sidebar {margin-top: 56px}
 .sidebar-blog-list .single-blog {margin-top: 20px}
 .sidebar-blog-list .single-blog:hover .blog-title {
@@ -1071,3 +1091,71 @@ DATASCIENCE TOOL PAGE
 	color: var(--dark-gray);
 	font-size: 12px;
 }
+.accordion-button:focus {box-shadow: none}
+.upcoming-events-accordion .accordion-button:not(.collapsed) {
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.upcoming-events-accordion {margin-top: 50px}
+.upcoming-events-accordion .accordion-button {
+	color: var(--dark-gray);
+}
+.upcoming-events-accordion .accordion-button:focus {
+	background: #FCFCFD;
+}
+.upcoming-events-accordion .accordion-button:not(.collapsed),
+.upcoming-events-accordion .accordion-button.collapsed {
+	background: #FCFCFD;
+}
+.upcoming-events-accordion .accordion-item {
+	border: 1px solid var(--light-gray);
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.upcoming-events-accordion .accordion-item .accordion-body {font-size: 16px; line-height: 40px; color: var(--dark-gray)}
+.upcoming-events-accordion .accordion-button:not(.collapsed)::after {
+	background-image: url('assets/icons/minus.svg');
+	background-size: 60px;
+    height: 60px;
+    width: 60px;
+    transform: none;
+    position: relative;
+    top: 3px;
+}
+.upcoming-events-accordion .accordion-button.collapsed::after {
+    position: relative;
+	background-image: url('assets/icons/plus.svg');
+    top: 3px;
+	background-size: 60px;
+    height: 60px;
+    width: 60px;
+}
+.upcoming-events-accordion .accordion-button {
+    padding: 6px 20px;
+}
+.upcoming-events {padding: 10px 0 100px}
+.upcoming-events-accordion .upcoming-links .upcoming-link {
+	color: var(--white);
+	background: var(--secondary);
+	border-radius: 8px;
+	padding: 1px 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.upcoming-events-accordion .accordion-item {
+	background: #FCFCFC;
+}
+#searchForm2 {
+	width: 40%;
+    margin: 0 auto;
+}
+#searchForm2 .form-control {
+	font-size: 12px;
+	border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px
+}
+#searchForm2 .form-control:focus {
+	border-color: var(--input-border);
+}
+#searchForm2 .mySpanClass img {height: 20px}
